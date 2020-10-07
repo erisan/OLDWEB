@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+------------------------------------------
+ ２層目共通
+------------------------------------------
+*/
+
+#logo{
+	width: 300px;
+}
+
+#LeftBox{
+	margin-top: 10px;
+	float: left;
+	_display: inline;
+	width: 650px;
+	background: #cccccc;
+}
+
+#sidebar{
+	margin-top: 10px;
+	float: right;
+	width: 220px;
+	background: #cccccc;
+}
+
+ul#sidemenu li ul li a{
+	margin-left: 20px;
+	padding-left: 12px;
+	background: url(../imgs/icon_arrow.gif) left center no-repeat;
+	*background: url(../imgs/icon_arrow.gif) left 0 no-repeat;
+}
+
+/*
+------------------------------------------
+ コンタクトフォーム
+------------------------------------------
+*/
+.centerBox{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+}
+
+#ppolicybox{
+	border: #ff0000 1px solid;
+	padding: 10px;
+}
+
+fieldset{
+	border: #333333 solid 1px;
+	padding: 20px;
+	* padding: 0px;
+	margin:auto;
+	width:700px;
+	color: #333333;
+	font-weight: bold;
+}
+
+dl.toiawaseform{
+	margin:auto;
+	width: 560px;
+	*margin-top: 20px;
+	*margin-bottom: 20px;
+}
+
+dl.toiawaseform dd{
+	 margin-bottom: 10px;
+}
+
+dl.toiawaseform dt{ 
+	border:#666666 solid 1px;
+	width: 150px;
+	height: 26px;
+	float:left;
+	margin-right: 8px;
+
+
+}
+
+.txtinput{
+	height:26px;
+	width: 200px;
+	border:solid 1px #666666;
+	font-size: 14px;
+	padding: 0 3px;
+}
+
+textarea{
+	border:solid 1px #666666;
+	font-size: 14px;
+	padding: 3px;
+	line-height: 1.5em;
+}
+
+div.label{
+	border: 1px #ffffff solid;
+	background: #666666;
+	color:#FFF;
+	height:24px;
+	width: 148px;
+	text-align:center;
+	line-height: 24px;
+}
+
+strong{
+	font-size: 10px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.hankaku{
+	font-size: 85%;
+	font-weight: normal;
+	color: #333;
+	vertical-align:bottom;
+}
+
+.formbtnbox{
+	text-align: center;
+	margin: 20px 0px 10px 0px;
+}
+
+.sbmit_btn{
+	margin: auto;
+	border: #FF7492 1px solid;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 5px 30px;
+	display: block;
+	background: #FF0000;
+}
+
+.form_check{
+	margin:auto;
+	width: 700px;
+	padding: 10px 0px;	
+}
+
+.form_check table{
+	margin: auto;
+	margin-bottom: 10px;
+}

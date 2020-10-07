@@ -1,0 +1,92 @@
+﻿body{
+	width: 100%;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.6;
+	font-size: 13px; 
+	/* フォントは基本13pxで指定 */
+	/* IE6、7用 フォント指定 */
+	*font-size: 81.25%;
+	background-color:#999999;
+	}
+	
+p{
+	margin: 0 0 0.4em 0;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+/* link */
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color:#2C83D5;
+}
+
+a:visited{
+	color:#2C83D5;
+}
+
+a:hover,a:active{
+	color: #FF6600;
+}
+
+/*
+---------------------------------------------------------------------
+ リンクのアイコン追加
+ arrow : >>アイコンを追加する。
+ newoage : 別画面アイコンを追加する。
+ 　　　　　別画面で開く場合に使う。
+---------------------------------------------------------------------
+*/
+
+a.arrow{
+	padding-left: 12px;
+	background: url(../imgs/icon_arrow.gif) left center no-repeat;
+	*background: url(../imgs/icon_arrow.gif) left 0 no-repeat;
+}
+
+a.newpage{
+	line-height: 1.4em;
+	padding-right: 14px;
+	background: url(../imgs/icon_newpage.gif) right center no-repeat;
+}
+
+
+/*
+---------------------------------------------------------------------
+ float(配置調整用)
+---------------------------------------------------------------------
+*/
+.floatleft{
+	float: left;
+	_display: inline;/* IE6用 ないとmarginが倍になる */
+}
+
+.floatright{
+	float: right;
+	_display: inline;
+}
+
+/*
+---------------------------------------------------------------------
+ clearfloat
+ floatの解除
+ floatした要素を含む親ボックスに指定
+---------------------------------------------------------------------
+*/
+/* IE 以外 */
+.clearfloat:after {
+	content: url("../imgs/pxcel.gif");
+	display: block;
+	clear: both;
+	height: 0;
+}
+/*--IE 5.5-7--*/
+.clearfloat{ 
+	zoom:1;
+}
+

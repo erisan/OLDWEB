@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+	background-color:#ffffff;
+}
+
+#header{
+	width: 880px;
+	margin: auto;
+}
+
+#header h1{
+	width: 300px;
+}
+
+/*
+------------------------------------------------
+テキストサイズ変更ボタン
+------------------------------------------------
+*/
+#header ul#txtbtn{
+	width: 126px;
+	height: 27px;
+	background: url(../imgs/txtbtn.gif) 0 0 no-repeat;
+}
+
+#header ul#txtbtn li{
+	float: left;
+	width: 42px;
+}
+
+#header ul#txtbtn li a.large,
+#header ul#txtbtn li a.middle,
+#header ul#txtbtn li a.small{
+	display: block;
+	height: 27px;
+	width: 42px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+/*
+------------------------------------------------
+検索フォーム
+------------------------------------------------
+*/
+
+#searchBox{
+	margin: 15px 0 5px 0;
+	width: 231px;
+	padding: 0;
+}
+
+#searchForm{
+	border: 1px #666666 solid;
+	height: 20px;
+	width:150px;
+}
+#searchBtn{
+	line-height: 1.6em;
+	vertical-align:bottom;
+	padding-left:0;
+}
+
+/*
+------------------------------------------------
+グローバルナビ
+------------------------------------------------
+*/
+#gnavi{
+	width: 880px;
+	height: 35px;
+	background: #333333;
+	margin: auto;
+}
+
+#gnavi ul li{
+	float: left;
+	display: inline;
+	list-style: none;
+}
+
+#mainImg{
+	width: 880px;
+	margin:auto;
+}
+
+/*
+------------------------------------------------
+TOPページメインコンテンツ
+------------------------------------------------
+*/
+
+#main{
+	width: 880px;
+	margin:auto;
+}
+
+/*
+------------------------------------------------
+TOPページメインコンテンツ　段落用ボックス
+------------------------------------------------
+*/
+.WrapperBox{
+	margin-top: 10px;
+}
+
+.WrapperBox h2{
+	font-size: 16px;
+}
+
+.inBox{
+	width: 435px;
+	background: #cccccc;
+}
+
+#contants_2{
+	float: left;
+	display: inline;
+	width: 290px;
+	border: 1px #cccccc solid;
+	margin-right: 10px;
+}
+
+#contants_3{
+	float: left;
+	display: inline;
+	width: 290px;
+	border: 1px #cccccc solid;
+}
+
+#banner{
+	width: 270px;
+	float: right;
+	display: inline;
+	border: 1px #cccccc solid;
+}
+
+#banner ul li{
+	list-style: none;
+	margin-top: 10px;
+}
+
+#footer{
+	margin-top: 10px;
+	height: 28px;
+	background:#333333;
+	text-align: center;
+	color: #FFFFFF;
+}
+

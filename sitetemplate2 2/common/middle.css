@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+------------------------------------------
+ ボタン背景変更
+------------------------------------------
+*/
+#header ul#txtbtn li a.middle, /* CSS選択時 */
+#header ul#txtbtn li a.middle:hover,
+#header ul#txtbtn li a.middle:active{
+	background: url(../imgs/txtbtn_on.gif) -42px 0  no-repeat;
+}
+
+/*
+------------------------------------------
+ フォント調整
+------------------------------------------
+*/
+
+p {
+	font-size: 100%;
+}
+

@@ -1,0 +1,59 @@
+/*  ブラウザデフォル設定のリセット */
+
+/* マージン、パディングのリセット */
+body,div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,
+blockquote,th,td{
+	margin: 0;
+	padding: 0;
+}
+/* IEのみ、よこすクロースが足りない場合はスクロールバーがでます　*/
+/* デフォルトだと、ボックス自体が拡張される */
+
+html{
+	overfllow-y: scroll;
+}
+
+/* タイトルのフォントサイズのリセット */
+
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/* pタグのマージンのリセット */
+p{
+	margin: 0 0 1em 0;
+}
+
+/* リストスタイルのリセット */
+ol,ul{
+	list-style: none;
+}
+
+/* イメージにはボーダーをつけない */
+fieldset,img{
+	border:0;
+}
+
+/* イメージは下に揃えておく for IE6 */
+img{
+	vertical-align: bottom;
+}
+
+/* テーブルのマージンはなくしておく */
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,th{
+	text-align: left;
+}
+
+/* 字体が異なるものもmormalに戻しておく */
+address,caption,cite,code,
+dfn,em,strong,th,var{
+	font-style: normal;
+}

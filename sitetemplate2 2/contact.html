@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Description" content="discription txt" />
+<meta name="Keywords" content="hogehoge,hugahuga" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<!-- デフォルトフォントサイズ-->
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="common/import.css" />
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="middle.css" title="default" />
+<!--切り替え用CSSを設定する-->
+<link rel="alternate stylesheet" type="text/css" href="common/middle.css" title="middle" />
+<link rel="alternate stylesheet" type="text/css" href="common/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" href="common/small.css" title="small" />
+
+<link href="/sitemap.html" rel="chapter help" title="サイトマップ" />
+<link href="mailto:hogehoge@example.com" rev="made" title="お問い合わせ" />
+
+<!-- styleswicherの読み込み -->
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/smartRollover.js"></script>
+<script type="text/javascript" src="js/partjs.js"></script>
+
+<title>汎用テンプレート2層目ページ</title>
+
+</head>
+
+<body>
+
+<div id="container">
+<div id="header" class="clearfloat">
+	
+    <div id="logo" class="floatleft"><a href="index.html"><img name="logo" src="imgs/logo.gif"  alt="logo" /></a></div>
+    
+    <div class="floatright">
+    <form id="searchBox">
+    <input type="text" value="サイト内検索"  title="検索" id="searchForm" /><input type="image" value="submit" src="imgs/searchbtn.gif" onMouseOut="this.src='imgs/searchbtn.gif'" onMouseOver="this.src='imgs/searchbtn_on.gif'" id="searchBtn" />
+    </form>
+
+    </div>  
+      
+</div><!-- header end -->
+
+<!-- グローバルナビ -->
+<div id="gnavi" class="clearfloat">
+    <ul>
+    <li><a href="#"><img src="imgs/gmenu1_off.gif" alt="menu1" /></a></li>
+    <li><a href="#"><img src="imgs/gmenu2_off.gif" alt="menu2" /></a></li>
+    <li><a href="#"><img src="imgs/gmenu3_off.gif" alt="menu3" /></a></li>
+    <li><a href="#"><img src="imgs/gmenu4_off.gif" alt="menu4" /></a></li>
+    <li><a href="contact.html"><img src="imgs/gmenu5_off.gif" alt="contact" /></a></li>
+    </ul>
+</div>
+    
+<div id="main">
+
+	<div class="centerBox">
+    <h2>お問い合わせ</h2>
+          
+    <p>お名前・Eメールアドレスをご記入の上、お気軽にお問い合わせください。</p>
+    <p>ご記入いただきたメールアドレス宛てにお返事いたします。(<strong>※</strong>印は必須項目です)</p>
+    
+    <div id="ppolicybox">
+    <p>フォームでのお問い合わせは<a href="">個人情報保護方針</a>への同意が必要となります。</p>
+    <p>組合<a href="">個人情報保護方針</a>をご確認いただき、「個人情報保護方針に同意する。」欄にチェックを入れてください。</p>   
+    </div>
+   
+   <p>◆お電話でのお問い合わせ</p>
+   <p>　お電話でもお問い合わせいただけます。<span style="font-weight:bold;"> xxx-xxxx-xxxx ●時～●時(土日祝除く) </span></p>
+
+
+<!--form-->
+	<form>
+    <fieldset>
+    <legend>お問い合わせ</legend>
+    
+        <dl class="toiawaseform">
+        <dt><label for="name"><div class="label">お名前 <strong>※</strong></div></label></dt>
+        <dd class="clearfix">
+        <input type="text" name="a_name" class="txtinput" id="name" />
+        </dd>
+        
+        <dt><label for="mail"><div class="label">メールアドレス <strong>※</strong></div></label></dt>
+        <dd class="clearfix">
+        <input type="text" name="b_mail" class="txtinput" id="mail" /> <span class="hankaku">(半角英数字)</span>
+        </dd>
+
+        <dt><label for="naiyou"><div class="label">問い合わせ <strong>※</strong></div></label></dt>
+        <dd class="clearfix">
+        <textarea name="c_field" rows="8" cols="50" id="naiyou"> </textarea>
+        </dd>
+        </dl> 
+    
+    </fieldset>
+
+	<div class="formbtnbox">
+    	<input type="checkbox" id="ppolicy" style="vertical-align: text-bottom;" name="d_ppolicy" value="同意する" /> <label for="ppolicy" style="font-weight: bold;">個人情報保護方針に同意する<strong>※</strong></label>
+    </div>
+    
+	<input type="submit" class="sbmit_btn" value="確 認" onmouseover="this.style.backgroundColor='#FF0066'" onmouseout="this.style.backgroundColor='#FF3366'">
+        
+    </form>
+    
+	<!--form end-->
+</div>
+    
+</div><!-- main  end -->
+
+<div id="footer">
+	<p>Copyright</p>
+</div>
+
+</div><!-- container end -->
+
+</body>
+</html>

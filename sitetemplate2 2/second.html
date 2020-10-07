@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Description" content="discription txt" />
+<meta name="Keywords" content="hogehoge,hugahuga" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<!-- デフォルトフォントサイズ-->
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="common/import.css" />
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="middle.css" title="default" />
+<!--切り替え用CSSを設定する-->
+<link rel="alternate stylesheet" type="text/css" href="common/middle.css" title="middle" />
+<link rel="alternate stylesheet" type="text/css" href="common/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" href="common/small.css" title="small" />
+
+<link href="/sitemap.html" rel="chapter help" title="サイトマップ" />
+<link href="mailto:hogehoge@example.com" rev="made" title="お問い合わせ" />
+
+<!-- styleswicherの読み込み -->
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/smartRollover.js"></script>
+<script type="text/javascript" src="js/partjs.js"></script>
+
+
+<title>汎用テンプレート2層目ページ</title>
+
+</head>
+
+<body>
+
+<div id="container">
+<div id="header" class="clearfloat">
+	
+    <div id="logo" class="floatleft"><a href="index.html"><img name="logo" src="imgs/logo.gif"  alt="logo" /></a></div>
+    
+    <div class="floatright">
+    <form id="searchBox">
+    <input type="text" value="サイト内検索"  title="検索" id="searchForm" /><input type="image" value="submit" src="imgs/searchbtn.gif" onMouseOut="this.src='imgs/searchbtn.gif'" onMouseOver="this.src='imgs/searchbtn_on.gif'" id="searchBtn" />
+    </form>
+
+    </div>  
+      
+</div><!-- header end -->
+
+<!-- グローバルナビ -->
+<div id="gnavi" class="clearfloat">
+    <ul>
+    <li><a href="#"><img src="imgs/gmenu1_off.gif" alt="menu1" /></a></li>
+    <li><a href="#"><img src="imgs/gmenu2_off.gif" alt="menu2" /></a></li>
+    <li><a href="#"><img src="imgs/gmenu3_off.gif" alt="menu3" /></a></li>
+    <li><a href="#"><img src="imgs/gmenu4_off.gif" alt="menu4" /></a></li>
+    <li><a href="contact.html"><img src="imgs/gmenu5_off.gif" alt="contact" /></a></li>
+    </ul>
+</div>
+    
+<div id="main" class="clearfloat">
+
+<div id="LeftBox">
+	<h2>タイトル</h2>
+    
+    <p>テキストがはいる。テキストがはいる。テキストがはいる。テキストがはいる。</p>
+    <p>テキストがはいる。テキストがはいる。テキストがはいる。テキストがはいる。</p>
+    <p>テキストがはいる。テキストがはいる。テキストがはいる。テキストがはいる。</p>
+    
+    <p><a href="" class="newpage"> 外部リンク</a></p>
+    
+</div>
+	
+<div id="sidebar">
+
+	<!-- sidemenu -->
+	<ul id="sidemenu">
+    	<li><a href="">Menu1</a></li>
+        <li> Menu2 
+        	<ul>
+            	<li><a href="">subMenu1</a></li>
+                <li><a href="">subMenu1</a></li>
+                <li><a href="">subMenu1</a></li>
+            </ul>
+        </li>
+        <li><a href="">Menu3</a></li>
+        <li><a href="">Menu4</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+
+</div>
+    
+</div><!-- main  end -->
+
+<div id="footer">
+	<p>Copyright</p>
+</div>
+
+</div><!-- container end -->
+
+</body>
+</html>

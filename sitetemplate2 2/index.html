@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Description" content="discription txt" />
+<meta name="Keywords" content="hogehoge,hugahuga" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<!-- デフォルトフォントサイズ-->
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="common/import.css" />
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="middle.css" title="default" />
+<!--切り替え用CSSを設定する-->
+<link rel="alternate stylesheet" type="text/css" href="common/middle.css" title="middle" />
+<link rel="alternate stylesheet" type="text/css" href="common/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" href="common/small.css" title="small" />
+
+<link href="/sitemap.html" rel="chapter help" title="サイトマップ" />
+<link href="mailto:hogehoge@example.com" rev="made" title="お問い合わせ" />
+
+<!-- styleswicherの読み込み -->
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/smartRollover.js"></script>
+<script type="text/javascript" src="js/partjs.js"></script>
+
+<title>汎用テンプレート</title>
+
+</head>
+
+<body>
+
+<div id="container">
+<div id="header" class="clearfloat">
+	
+    <h1 class="floatleft"><img src="imgs/logo.gif"  alt="logo" /></h1>
+    
+    <div class="floatright">
+    <form id="searchBox" action="cgi/hogehoge.cgi" name="searchBox">
+    <input type="text" value="サイト内検索"  title="検索" id="searchForm" /><input type="image" value="submit" src="imgs/searchbtn.gif" onmouseout="this.src='imgs/searchbtn.gif'" onmouseover="this.src='imgs/searchbtn_on.gif'" id="searchBtn"  alt="img" />
+    </form>
+    
+    <ul id="txtbtn" class="clearfloat">
+    <li><a href="javascript:void(0);" onclick="setActiveStyleSheet('large'); return false;" class="large">大</a></li>
+    <li><a href="javascript:void(0);" onclick="setActiveStyleSheet('middle'); return false;" class="middle">中</a></li>
+    <li><a href="javascript:void(0);" onclick="setActiveStyleSheet('small'); return false;" class="small">小</a></li>
+    </ul>
+    </div>  
+      
+</div><!-- header end -->
+
+<!-- グローバルナビ -->
+<div id="gnavi" class="clearfloat">
+    <ul>
+    <li><a href="sample.html"><img src="imgs/gmenu1_off.gif" alt="menu1" /></a></li>
+    <li><a href="sample.html"><img src="imgs/gmenu2_off.gif" alt="menu2" /></a></li>
+    <li><a href="sample.html"><img src="imgs/gmenu3_off.gif" alt="menu3" /></a></li>
+    <li><a href="sample.html"><img src="imgs/gmenu4_off.gif" alt="menu4" /></a></li>
+    <li><a href="contact.html"><img src="imgs/gmenu5_off.gif" alt="contact" /></a></li>
+    </ul>
+</div>
+
+<div id="mainImg">
+    <h2><img src="imgs/topimg.jpg" alt="topimg" width="880" /></h2>
+</div>
+    
+<div id="main">
+
+	<div class="WrapperBox clearfloat">
+    <h2>コンテンツタイトル1</h2>
+    <div class="floatleft inBox">
+    	<dl>
+        	<dt>ニュースタイトル</dt>
+            <dd>テキストテキストテキストテキスト</dd>
+            <dt>ニュースタイトル</dt>
+            <dd>テキストテキストテキストテキスト</dd>
+            <dt>ニュースタイトル</dt>
+            <dd>テキストテキストテキストテキスト</dd>
+         </dl>
+    </div>
+    
+    <div class="floatright inBox">
+    <p>コンテンツコンテンツコンテンツコンテンツコンテンツ</p>
+    <br />
+    </div> 
+    
+     </div>
+    
+    <div class="WrapperBox clearfloat">
+    <div id="contants_2">
+    <h2>コンテンツタイトル2</h2>
+    <ul>
+    <li>
+        <h3>タイトル</h3>
+     </li>
+     <li>
+        <h3>タイトル</h3>
+     </li>
+    </ul>
+    </div>
+    
+    <div id="contants_3">
+    <h2>コンテンツタイトル3</h2>
+    <ul>
+    <li>
+        <h3>タイトル</h3>
+     </li>
+     <li>
+        <h3>タイトル</h3>
+     </li>
+    </ul>
+    </div>
+    
+    <div id="banner">
+    <ul>
+    <li><img src="imgs/bn.gif" alt="" /></li>
+    <li><img src="imgs/bn.gif" alt="" /></li>
+    </ul>
+    </div>
+
+	</div>
+    
+</div><!-- main  end -->
+
+<div id="footer">
+	<address>
+    
+    <script type="text/javascript">
+//<![CDATA[
+	document.write(getCopyRight());
+//]]>
+	</script> 
+    </address>
+</div>
+
+</div><!-- container end -->
+
+</body>
+</html>
